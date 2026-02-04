@@ -1,0 +1,35 @@
+[
+    {
+    "name": "Emily Williams",
+    "gender": "Female",
+    "age": 18
+  },
+  {
+    "name": "Ryan Johnson",
+    "gender": "Male",
+    "age": 45
+  },
+  {
+    "name": "Brandon Mitchell",
+    "gender": "Male",
+    "age": 36
+  },
+  {
+    "name": "Jessica Taylor",
+    "gender": "Female",
+    "age": 28
+  },
+  {
+    "name": "Samantha Johnson",
+    "gender": "Female",
+    "age": 56
+  },{
+    "name": "Ashley Martinez",
+    "gender": "Female",
+    "age": 54
+  },{
+    "name": "Jessica Taylor",
+    "gender": "Female",
+    "age": 28
+  }
+  ]
