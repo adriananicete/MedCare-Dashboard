@@ -89,7 +89,7 @@ function Diagnostic() {
   );
 
   return (
-    <article className="  w-full h-[100%] flex flex-col justify-start items-center flex-[2] gap-8 ">
+    <article className="  w-full h-[100%] flex flex-col justify-start items-center flex-[2] gap-5 ">
       <div className="bg-[#ffffff] w-full h-[auto] flex flex-col justify-start items-start gap-5 rounded-[16px] shadow-md p-[20px]">
         <h1 className="font-[600] text-[24px] mb-5">Diagnostic History</h1>
 

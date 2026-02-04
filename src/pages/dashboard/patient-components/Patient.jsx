@@ -12,7 +12,7 @@ function Patient() {
         <p className="text-[24px] font-[600]">Patients</p>
         <IoIosSearch size={25} />
       </div>
-      <div className="w-full h-[1040px] flex flex-col justify-start items-center gap-2  overflow-y-scroll">
+      <div className="w-full h-[845px] flex flex-col justify-start items-center gap-2  overflow-y-scroll">
         {patients.map((patient, index) => (
           <PatientCard
             key={index}

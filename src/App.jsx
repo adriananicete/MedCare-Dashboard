@@ -12,8 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <PatientProvider>
-      <div className='bg-[#f6f7f8] w-full h-[auto] flex flex-col justify-center items-center'>
-        <div className='w-[90%] h-[100%] flex flex-col justify-center items-center p-[25px] gap-7'>
+      <div className='bg-[#f6f7f8] w-full h-[auto] flex flex-col justify-center items-center '>
+        <div className='w-[90%] h-[100%] flex flex-col justify-center items-center p-[10px] gap-7'>
           <NavBar />
       <Dashboard />
         </div>

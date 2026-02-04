@@ -21,10 +21,10 @@ function Profile() {
   }
 
   return (
-    <section className="bg-[] w-full h-[auto] flex-[1] flex flex-col justify-start items-center gap-10">
+    <section className="bg-[] w-full h-[auto] flex-[1] flex flex-col justify-start items-center gap-5">
       <article className="bg-[#fff] shadow-md w-full h-[auto] flex flex-col justify-start items-center rounded-[16px] py-[20px]">
         <div className="w-full flex justify-center items-center flex-col py-[20px]">
-          <div className="bg-gray-400 w-[200px] h-[200px] rounded-full overflow-hidden">
+          <div className="bg-gray-400 w-[160px] h-[160px] rounded-full overflow-hidden">
             <img
               className="w-full h-full object-cover"
               src={selectedPatient.profile_picture}

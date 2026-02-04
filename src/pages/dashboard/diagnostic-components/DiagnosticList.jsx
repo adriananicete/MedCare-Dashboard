@@ -12,7 +12,7 @@ function DiagnosticList({ name, description, status }) {
   console.log(diagnosticList);
 
   return (
-    <div className="bg-[#fff] w-full h-[auto] rounded-[16px] shadow-md p-[20px] flex flex-col justify-center items-start gap-10">
+    <div className="bg-[#fff] w-full h-[auto] rounded-[16px] shadow-md p-[20px] flex flex-col justify-center items-start gap-5">
       <h2 className="text-[24px] font-[600]  ">Diagnosis List</h2>
 
       <div className=" w-full h-[auto] text-[] flex flex-col justify-center items-center gap-5 ">
@@ -28,7 +28,7 @@ function DiagnosticList({ name, description, status }) {
           </div>
         </div>
 
-        <div className="bg-[] h-[120px] w-full overflow-y-scroll flex justify-start items-center flex-col gap-6">
+        <div className="bg-[] h-[55px] w-full overflow-y-scroll flex justify-start items-center flex-col gap-4">
             {selectedPatient?.diagnostic_list?.map((item, index) => (
     <div key={index} className="w-full bg-[] flex justify-between items-center text-left ">
       <p className="flex-1">{item.name}</p>
